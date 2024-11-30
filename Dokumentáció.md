@@ -20,6 +20,6 @@ Ezt követően az eléréséi pontunkat engedélyezzünk átnevezzük ESP DHT11-
 Ezt követően beillesztünk egy DHT szenzor blokkot a programba és beállítjuk: DPIO0 pint  és a DHT11-es szenzort kiválasztjuk, engedélyezzük a hő és páraérzékelő szenzort, az ismétlési időt most 2 másodpercre állítjuk.
 ![alt text](https://github.com/SzenesBence/IotBeadando/blob/main/kepek/FLProg2.png)
 Ezután egy RemoteXY blokkot húzunk be a programba. Az input/output fülön beillesztjük a RemoteXY-on legenerált kódunkat. Ezután megbizonyosodunk róla hogy a port 6377-en fog futni és beillesztjük, ezután véglegesítjük a blokkot és összehúzzuk a hő és páraérzékelő blokkot a RemoteXY blokkal és végül futtatunk.
-https://github.com/SzenesBence/IotBeadando/blob/main/kepek/FLProg3.png
+![alt text](https://github.com/SzenesBence/IotBeadando/blob/main/kepek/FLProg3.png)
 
 
