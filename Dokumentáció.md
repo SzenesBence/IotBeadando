@@ -9,5 +9,5 @@ Legelőször az alap konfigurációnknak megadtuk a Wifi Acces pointot, ESP8266 
 ![alt text](https://github.com/SzenesBence/IotBeadando/blob/main/kepek/RemoteXY1.png)
 A megfelelő indikátorokat beállítottuk és feliratoztuk.
 ![alt text](https://github.com/SzenesBence/IotBeadando/blob/main/kepek/RemoteXY2.png)
-
+Ezután a GetSourceCodeall letöltjük a sourcodeot amit a remoteXY.txt-ben mellékeltem.
 
