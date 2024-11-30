@@ -1,4 +1,5 @@
 Hő és pára érzékelő:
+
 Eszközök: Wemos 18650 akkumulátortöltő pajzs,ESP-01 USB programozó, ESP8266 Wifi-Modul, Duopont kábel anya/anya.
 Szoftverek: FLProg, RemoteXY, Arduino
 
