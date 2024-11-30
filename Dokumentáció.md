@@ -11,3 +11,8 @@ A megfelelő indikátorokat beállítottuk és feliratoztuk.
 ![alt text](https://github.com/SzenesBence/IotBeadando/blob/main/kepek/RemoteXY2.png)
 Ezután a GetSourceCodeall letöltjük a sourcodeot amit a remoteXY.txt-ben mellékeltem.
 
+
+FLPRog:
+
+Először kiválasztjuk az új projektet ami az ESP8266 ESP-01 V090-es modul lesz.
+
