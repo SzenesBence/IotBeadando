@@ -30,6 +30,9 @@ A projektünk feltöltése utána az FlProg átirányít minket az Arduino IDE-b
 USB Programozó összecsatlakoztva a Wifi modullal.
 ![alt text](https://github.com/SzenesBence/IotBeadando/blob/main/kepek/programozo.jpg)
 Ezután letöltjük a RemoteXY appot a PlayÁruházból.Hozzáadunk egy egy új eszközt,beállítjuk a Wifi pontunkat, rácsatlakozunk a 6377-es portunkra és már látjuk is a végeredményt.
+![alt text](https://github.com/SzenesBence/IotBeadando/blob/main/kepek/RemoteApp.jpg)
+Akkumulátor pajzsra csatlakoztatott hőmérőegység:
+![alt text](https://github.com/SzenesBence/IotBeadando/blob/main/kepek/Homero.jpg)
 
 
 
