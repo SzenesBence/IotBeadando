@@ -29,5 +29,7 @@ A projektünk feltöltése utána az FlProg átirányít minket az Arduino IDE-b
 ![alt text](https://github.com/SzenesBence/IotBeadando/blob/main/kepek/arduino.png)
 USB Programozó összecsatlakoztva a Wifi modullal.
 ![alt text](https://github.com/SzenesBence/IotBeadando/blob/main/kepek/programozo.jpg)
+Ezután letöltjük a RemoteXY appot a PlayÁruházból. Rácsatlakozunk Wifi pontunkra és már látjuk is a végeredményt.
+
 
 
