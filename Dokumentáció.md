@@ -15,4 +15,5 @@ Ezután a GetSourceCodeall letöltjük a sourcodeot amit a remoteXY.txt-ben mell
 FLPRog:
 
 Először kiválasztjuk az új projektet ami az ESP8266 ESP-01 V090-es modul lesz.
+![alt text](https://github.com/SzenesBence/IotBeadando/blob/main/kepek/FLProg1.png)
 
