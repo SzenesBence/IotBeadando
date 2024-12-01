@@ -37,7 +37,7 @@ Akkumulátor pajzsra csatlakoztatott hőmérőegység:
 
 
 
-https://github.com/user-attachments/assets/c2942527-3291-4515-b572-975b24825345
+
 
 
 
