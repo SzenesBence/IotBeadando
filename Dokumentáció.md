@@ -34,7 +34,7 @@ Ezután letöltjük a RemoteXY appot a PlayÁruházból.Hozzáadunk egy egy új 
 Akkumulátor pajzsra csatlakoztatott hőmérőegység:
 ![alt text](https://github.com/SzenesBence/IotBeadando/blob/main/kepek/Homero.jpg)
 
-
+https://youtu.be/2bABDv5wP4c
 
 
 
