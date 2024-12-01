@@ -6,7 +6,7 @@ Szoftverek: FLProg, RemoteXY, Arduino
 RemoteXY:
 Egy testreszabható applikáció készítésével kezdtünk RemoteXY(https://remotexy.com/) segítségével.
 Legelőször az alap konfigurációnknak megadtuk a Wifi Acces pointot, ESP8266 based board-ot, Integrated Wi-Fi-t és az FlProg Ide-t.
-<details>![alt text](https://github.com/SzenesBence/IotBeadando/blob/main/kepek/RemoteXY1.png)</details>
+<details> <image src=https://github.com/SzenesBence/IotBeadando/blob/main/kepek/RemoteXY1.png ></details>
 A megfelelő indikátorokat beállítottuk és feliratoztuk.
 ![alt text](https://github.com/SzenesBence/IotBeadando/blob/main/kepek/RemoteXY2.png)
 Ezután a GetSourceCodeall letöltjük a sourcodeot amit a remoteXY.txt-ben mellékeltem.
