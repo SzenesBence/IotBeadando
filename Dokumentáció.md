@@ -35,7 +35,7 @@ Akkumulátor pajzsra csatlakoztatott hőmérőegység:
 ![alt text](https://github.com/SzenesBence/IotBeadando/blob/main/kepek/Homero.jpg)
 
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=2bABDv5wP4c)
+[![Youtube videó!](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=2bABDv5wP4c)
 
 
 
