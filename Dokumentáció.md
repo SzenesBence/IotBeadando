@@ -3,7 +3,7 @@ Célja: a hő és páraérzékelés valós időben.
 
 <ins>Csapattagok és szerepük:</ins> 1.Siska Balázs: Iot eszközök összeszerelése, flprog program összerakása, dokumentáció asszisztálása. 2.Szenes Bence: IoT eszközök összeszerelése(részben),flprog program összerakása, dokumentálás.
 
-<ins>Eszközök és céljuk:</ins> Wemos 18650 akkumulátortöltő pajzs: áramellátás, ESP-01 DHT11 DHT22 hőmérséklet páratartalom érzékelő modul: hő és pára érzékelés,ESP-01 USB programozó: programozás , ESP8266 Wifi-Modul: vezetés nélküli kapcsolat biztosítása, Duopont kábel anya/anya és pin header: áramellátása biztosítása az akkumulátorpajzs és a hő és pára érzékelő között mint kábel.
+<ins>Eszközök és céljuk:</ins> Wemos 18650 akkumulátortöltő pajzs: áramellátás, ESP-01 DHT11 DHT22 hőmérséklet páratartalom érzékelő modul: hő és pára érzékelés,ESP-01 USB programozó: programozás , ESP8266 Wifi-Modul: vezetés nélküli kapcsolat biztosítása, Duopont kábel anya/anya és pin header: áramellátása biztosítása az akkumulátorpajzs és a hő és pára érzékelő egység között mint kábel.
 
 <ins>Szoftverek:</ins> FLProg, RemoteXY(webes), Arduino
 
