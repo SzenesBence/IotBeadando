@@ -98,24 +98,28 @@ Ez a kód egy ESP8266 WiFi-modulon alapuló hőmérséklet- és páratartalom-m�
 #define REMOTEXY_WIFI_SSID "ESP01 DHT11": A WiFi hozzáférési pont neve, amelyet az ESP hoz létre.
 #define REMOTEXY_WIFI_PASSWORD "": A hozzáférési pont jelszava (üresen hagyva nincs jelszó).
 #define REMOTEXY_SERVER_PORT 6377: A RemoteXY szerver portja a kommunikációhoz.
-2. Fontos importált könyvtárak
+
+3. Fontos importált könyvtárak
 <ESP8266WiFi.h>: A WiFi-funkciók kezelése az ESP8266-on.
 <RemoteXY.h>: A RemoteXY platform könyvtára a felhasználói interfész és adatkommunikáció kezelésére.
 DHTesp.h: A DHT11 szenzor kezeléséhez szükséges könyvtár.
-3. RemoteXY konfiguráció
+
+5. RemoteXY konfiguráció
 RemoteXY_CONF[]: Ez egy bináris konfiguráció, amely a RemoteXY interfész elrendezését és funkcióit határozza meg.
 RemoteXY struktúra: Tárolja a mérési adatokat:
 instrument_01: Hőmérséklet.
 instrument_02: Páratartalom.
 connect_flag: Kapcsolati állapot.
-4. Változók
+
+7. Változók
 WiFi beállítások: Az ESP a következő beállításokat használja hozzáférési pontként:
 IP-cím, alhálózati maszk, gateway és DNS beállítások.
 MAC-címek kezelése és ellenőrzése (_checkMacAddres).
 Hőmérséklet- és páratartalom-értékek:
 _dht1_humOut: Páratartalom tárolása.
 _dht1_tempOut: Hőmérséklet tárolása.
-5. setup() funkció
+
+9. setup() funkció
 Ez a funkció az inicializálást végzi:
 
 RemoteXY_Init(): Elindítja a RemoteXY kapcsolatot.
