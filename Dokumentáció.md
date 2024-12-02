@@ -6,6 +6,15 @@ Eszközök: Wemos 18650 akkumulátortöltő pajzs: áramellátás, ESP-01 DHT11 
 
 Szoftverek: FLProg, RemoteXY, Arduino
 
+Működés menete:
+
+1.Az ESP8266 hozzáférési pontot hoz létre (SSID: "ESP01 DHT11"), amelyhez más eszközök csatlakozhatnak.
+2.A DHT11 szenzorról mért hőmérséklet- és páratartalom-adatokat 2 másodpercenként frissíti.
+3.Az adatok a RemoteXY interfészen keresztül érhetők el, például egy mobilalkalmazásban.
+4.Ha a WiFi kapcsolat megszakad, automatikusan újracsatlakozik.
+
+Összeállítás lépései:
+
 RemoteXY:
 Egy testreszabható applikáció készítésével kezdtünk RemoteXY(https://remotexy.com/) segítségével.
 Legelőször az alap konfigurációnknak megadtuk a Wifi Acces pointot, ESP8266 based board-ot, Integrated Wi-Fi-t és az FlProg Ide-t.
@@ -27,7 +36,7 @@ Ezután egy RemoteXY blokkot húzunk be a programba. Az input/output fülön bei
 
 
 Arduino:
-(részletesebb kóddokumentációért,lásd: ArduinoKódDokumentáció.md)
+(részletesebb kóddokumentációért lásd: https://github.com/SzenesBence/IotBeadando/blob/main/ArduinoK%C3%B3dDokument%C3%A1ci%C3%B3.md )
 USB Programozó összecsatlakoztjuka  a Wifi modullal és azt behelyezzük az USB portunkba
    <details> <image src="https://github.com/SzenesBence/IotBeadando/blob/main/kepek/programozo.jpg" ></details>
 A projektünk feltöltése utána az FlProg átirányít minket az Arduino IDE-be, ahol beállítjuk a FLASh méretet 1mb-re, valamint az ismétlési metódust dtr(aka nodemcu)-ra, valamint kiválasztjuk a megfelelő Portot, ami nekem most a PORT6. Ezt követően rámegyünk a Feltöltés>Feltöltés programozót használva menüpontra és a program felkerül a wifimodulunkra.
