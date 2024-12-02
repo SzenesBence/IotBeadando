@@ -15,25 +15,25 @@ Ezután a GetSourceCodeall letöltjük a sourcodeot amit a remoteXY.txt-ben mell
 FLPRog:
 
 Először kiválasztjuk az új projektet ami az ESP8266 ESP-01 V090-es modul lesz.
-![alt text](https://github.com/SzenesBence/IotBeadando/blob/main/kepek/FLProg1.png)
+  <details> <image src="https://github.com/SzenesBence/IotBeadando/blob/main/kepek/FLProg1.png" ></details>
 Ezt követően az eléréséi pontunkat engedélyezzünk átnevezzük ESP DHT11-re, az IP címet 192.168.0.1-re változtatjuk.
 Ezt követően beillesztünk egy DHT szenzor blokkot a programba és beállítjuk: DPIO0 pint  és a DHT11-es szenzort kiválasztjuk, engedélyezzük a hő és páraérzékelő szenzort, az ismétlési időt most 2 másodpercre állítjuk.
-![alt text](https://github.com/SzenesBence/IotBeadando/blob/main/kepek/FLProg2.png)
+     <details> <image src="https://github.com/SzenesBence/IotBeadando/blob/main/kepek/FLProg2.png" ></details>
 Ezután egy RemoteXY blokkot húzunk be a programba. Az input/output fülön beillesztjük a RemoteXY-on legenerált kódunkat. Ezután megbizonyosodunk róla hogy a port 6377-en fog futni és beillesztjük, ezután véglegesítjük a blokkot és összehúzzuk a hő és páraérzékelő blokkot a RemoteXY blokkal és végül futtatunk.
-![alt text](https://github.com/SzenesBence/IotBeadando/blob/main/kepek/FLprog3.png)
+        <details> <image src="https://github.com/SzenesBence/IotBeadando/blob/main/kepek/FLprog3.png" ></details>
 
 
 Arduino:
 
 A projektünk feltöltése utána az FlProg átirányít minket az Arduino IDE-be, ahol beállítjuk a FLASh méretet 1mb-re, valamint az ismétlési metódust dtr(aka nodemcu)-ra, valamint kiválasztjuk a megfelelő Portot, ami nekem most a PORT6. Ezt követően rámegyünk a Feltöltés>Feltöltés programozót használva menüpontra és a program felkerül a wifimodulunkra.
-![alt text](https://github.com/SzenesBence/IotBeadando/blob/main/kepek/arduino.png)
-USB Programozó összecsatlakoztva a Wifi modullal.
-![alt text](https://github.com/SzenesBence/IotBeadando/blob/main/kepek/programozo.jpg)
-Ezután letöltjük a RemoteXY appot a PlayÁruházból.Hozzáadunk egy egy új eszközt,beállítjuk a Wifi pontunkat, rácsatlakozunk a 6377-es portunkra és már látjuk is a végeredményt.
-![alt text](https://github.com/SzenesBence/IotBeadando/blob/main/kepek/RemoteApp.jpg)
-Akkumulátor pajzsra csatlakoztatott hőmérőegység:
-![alt text](https://github.com/SzenesBence/IotBeadando/blob/main/kepek/Homero.jpg)
+        <details> <image src="https://github.com/SzenesBence/IotBeadando/blob/main/kepek/arduino.png" ></details>
 
+USB Programozó összecsatlakoztva a Wifi modullal.
+   <details> <image src="https://github.com/SzenesBence/IotBeadando/blob/main/kepek/programozo.jpg" ></details>
+Ezután letöltjük a RemoteXY appot a PlayÁruházból.Hozzáadunk egy egy új eszközt,beállítjuk a Wifi pontunkat, rácsatlakozunk a 6377-es portunkra és már látjuk is a végeredményt.
+        <details> <image src="https://github.com/SzenesBence/IotBeadando/blob/main/kepek/RemoteApp.jpg" ></details>
+Akkumulátor pajzsra csatlakoztatott hőmérőegység:
+                 <details> <image src="https://github.com/SzenesBence/IotBeadando/blob/main/kepek/Homero.jpg" ></details>
 
 [![Youtube videó!](https://img.youtube.com/vi/2bABDv5wP4c/0.jpg)](https://www.youtube.com/watch?v=2bABDv5wP4c)
 
