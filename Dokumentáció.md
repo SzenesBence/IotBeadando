@@ -13,7 +13,7 @@ Célja: a hő és páraérzékelés valós időben.
 
 2. A DHT11 szenzorról mért hőmérséklet- és páratartalom-adatokat 2 másodpercenként frissíti.
 
-3. Az adatok a RemoteXY interfészen keresztül érhetők el, például egy mobilalkalmazásban.
+3. Az adatok a RemoteXY interfészen keresztül érhetők el mobilalkalmazásban.
 
 4. Ha a WiFi kapcsolat megszakad, automatikusan újracsatlakozik.
 
