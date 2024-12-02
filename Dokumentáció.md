@@ -13,7 +13,7 @@ Működés menete:
 3.Az adatok a RemoteXY interfészen keresztül érhetők el, például egy mobilalkalmazásban.
 4.Ha a WiFi kapcsolat megszakad, automatikusan újracsatlakozik.
 
-Összeállítás lépései:
+Összeállítás menete:
 
 RemoteXY:
 Egy testreszabható applikáció készítésével kezdtünk RemoteXY(https://remotexy.com/) segítségével.
