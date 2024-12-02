@@ -1,6 +1,6 @@
 Hő és pára érzékelő:
 
-Eszközök: Wemos 18650 akkumulátortöltő pajzs,ESP-01 USB programozó, ESP8266 Wifi-Modul, Duopont kábel anya/anya.
+Eszközök: Wemos 18650 akkumulátortöltő pajzs, ESP-01 DHT11 DHT22 hőmérséklet páratartalom érzékelő modul,ESP-01 USB programozó, ESP8266 Wifi-Modul, Duopont kábel anya/anya.
 Szoftverek: FLProg, RemoteXY, Arduino
 
 RemoteXY:
@@ -24,16 +24,16 @@ Ezután egy RemoteXY blokkot húzunk be a programba. Az input/output fülön bei
 
 
 Arduino:
-
+USB Programozó összecsatlakoztjuka  a Wifi modullal és azt behelyezzük az USB portunkba
+   <details> <image src="https://github.com/SzenesBence/IotBeadando/blob/main/kepek/programozo.jpg" ></details>
 A projektünk feltöltése utána az FlProg átirányít minket az Arduino IDE-be, ahol beállítjuk a FLASh méretet 1mb-re, valamint az ismétlési metódust dtr(aka nodemcu)-ra, valamint kiválasztjuk a megfelelő Portot, ami nekem most a PORT6. Ezt követően rámegyünk a Feltöltés>Feltöltés programozót használva menüpontra és a program felkerül a wifimodulunkra.
         <details> <image src="https://github.com/SzenesBence/IotBeadando/blob/main/kepek/arduino.png" ></details>
+Kivesszük a Wifi modult, hozzáacsatlakoztatjuk a hő és pára érzékelő modulunkhoz és ezt az egységet összekötjük az akkumulátorpajzsal.
+                 <details> <image src="https://github.com/SzenesBence/IotBeadando/blob/main/kepek/Homero.jpg" ></details>
 
-USB Programozó összecsatlakoztva a Wifi modullal.
-   <details> <image src="https://github.com/SzenesBence/IotBeadando/blob/main/kepek/programozo.jpg" ></details>
+
 Ezután letöltjük a RemoteXY appot a PlayÁruházból.Hozzáadunk egy egy új eszközt,beállítjuk a Wifi pontunkat, rácsatlakozunk a 6377-es portunkra és már látjuk is a végeredményt.
         <details> <image src="https://github.com/SzenesBence/IotBeadando/blob/main/kepek/RemoteApp.jpg" ></details>
-Akkumulátor pajzsra csatlakoztatott hőmérőegység:
-                 <details> <image src="https://github.com/SzenesBence/IotBeadando/blob/main/kepek/Homero.jpg" ></details>
 
 [![Youtube videó!](https://img.youtube.com/vi/2bABDv5wP4c/0.jpg)](https://www.youtube.com/watch?v=2bABDv5wP4c)
 
