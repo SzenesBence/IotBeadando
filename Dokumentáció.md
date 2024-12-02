@@ -49,7 +49,7 @@ Kivesszük a Wifi modult, hozzáacsatlakoztatjuk a hő és pára érzékelő mod
 Ezután letöltjük a RemoteXY appot a PlayÁruházból.Hozzáadunk egy egy új eszközt,beállítjuk a Wifi pontunkat, rácsatlakozunk a 6377-es portunkra és már látjuk is a végeredményt.
         <details> <image src="https://github.com/SzenesBence/IotBeadando/blob/main/kepek/RemoteApp.jpg" ></details>
 
-Működést bemutató videó:
+<ins>Működést bemutató videó:</ins>
 https://www.youtube.com/watch?v=2bABDv5wP4c
 
 
