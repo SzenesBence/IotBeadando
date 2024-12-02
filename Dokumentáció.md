@@ -2,18 +2,18 @@ Hő és pára érzékelő:
 Célja: a hő és páraérzékelés valós időben.
 Csapattagok és szerepük: 1.Siska Balázs: Iot eszközök összeszerelése, fltprog program összerakása, dokumentáció asszisztálása. 2.Szenes Bence: IoT eszközök összeszerelése(részben),fltprog program összerakása, dokumentálás.
 
-Eszközök: Wemos 18650 akkumulátortöltő pajzs: áramellátás, ESP-01 DHT11 DHT22 hőmérséklet páratartalom érzékelő modul: hő és pára érzékelés,ESP-01 USB programozó: programozás , ESP8266 Wifi-Modul: vezetés nélküli kapcsolat biztosítása, Duopont kábel anya/anya: áramellátása biztosítása az akkumulátorpajzs és a hő és pára érzékelő között mint kábel.
+<ins>Eszközök:</ins> Wemos 18650 akkumulátortöltő pajzs: áramellátás, ESP-01 DHT11 DHT22 hőmérséklet páratartalom érzékelő modul: hő és pára érzékelés,ESP-01 USB programozó: programozás , ESP8266 Wifi-Modul: vezetés nélküli kapcsolat biztosítása, Duopont kábel anya/anya: áramellátása biztosítása az akkumulátorpajzs és a hő és pára érzékelő között mint kábel.
 
-Szoftverek: FLProg, RemoteXY(webes), Arduino
+<ins>Szoftverek:</ins> FLProg, RemoteXY(webes), Arduino
 
-Működés menete:
+<ins>Működés menete:</ins>
 
 1.Az ESP8266 hozzáférési pontot hoz létre (SSID: "ESP01 DHT11"), amelyhez más eszközök csatlakozhatnak.
 2.A DHT11 szenzorról mért hőmérséklet- és páratartalom-adatokat 2 másodpercenként frissíti.
 3.Az adatok a RemoteXY interfészen keresztül érhetők el, például egy mobilalkalmazásban.
 4.Ha a WiFi kapcsolat megszakad, automatikusan újracsatlakozik.
 
-Összeállítás menete:
+<ins>Összeállítás menete:</ins>
 
 RemoteXY:
 Egy testreszabható applikáció készítésével kezdtünk RemoteXY(https://remotexy.com/) segítségével.
