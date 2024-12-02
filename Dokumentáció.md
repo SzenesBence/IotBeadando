@@ -26,6 +26,7 @@ Ezután egy RemoteXY blokkot húzunk be a programba. Az input/output fülön bei
 
 
 Arduino:
+(részletesebb kóddokumentációért,lásd: ArduinoKódDokumentáció.md)
 USB Programozó összecsatlakoztjuka  a Wifi modullal és azt behelyezzük az USB portunkba
    <details> <image src="https://github.com/SzenesBence/IotBeadando/blob/main/kepek/programozo.jpg" ></details>
 A projektünk feltöltése utána az FlProg átirányít minket az Arduino IDE-be, ahol beállítjuk a FLASh méretet 1mb-re, valamint az ismétlési metódust dtr(aka nodemcu)-ra, valamint kiválasztjuk a megfelelő Portot, ami nekem most a PORT6. Ezt követően rámegyünk a Feltöltés>Feltöltés programozót használva menüpontra és a program felkerül a wifimodulunkra.
