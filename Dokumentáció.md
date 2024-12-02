@@ -1,6 +1,7 @@
-Hő és pára érzékelő:
+<ins>Hő és pára érzékelő:</ins>
 Célja: a hő és páraérzékelés valós időben.
-Csapattagok és szerepük: 1.Siska Balázs: Iot eszközök összeszerelése, fltprog program összerakása, dokumentáció asszisztálása. 2.Szenes Bence: IoT eszközök összeszerelése(részben),fltprog program összerakása, dokumentálás.
+
+<ins>Csapattagok és szerepük:</ins> 1.Siska Balázs: Iot eszközök összeszerelése, fltprog program összerakása, dokumentáció asszisztálása. 2.Szenes Bence: IoT eszközök összeszerelése(részben),fltprog program összerakása, dokumentálás.
 
 <ins>Eszközök:</ins> Wemos 18650 akkumulátortöltő pajzs: áramellátás, ESP-01 DHT11 DHT22 hőmérséklet páratartalom érzékelő modul: hő és pára érzékelés,ESP-01 USB programozó: programozás , ESP8266 Wifi-Modul: vezetés nélküli kapcsolat biztosítása, Duopont kábel anya/anya: áramellátása biztosítása az akkumulátorpajzs és a hő és pára érzékelő között mint kábel.
 
