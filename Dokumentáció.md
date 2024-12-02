@@ -10,8 +10,11 @@ Célja: a hő és páraérzékelés valós időben.
 <ins>Működés menete:</ins>
 
 1.Az ESP8266 hozzáférési pontot hoz létre (SSID: "ESP01 DHT11"), amelyhez más eszközök csatlakozhatnak.
+
 2.A DHT11 szenzorról mért hőmérséklet- és páratartalom-adatokat 2 másodpercenként frissíti.
+
 3.Az adatok a RemoteXY interfészen keresztül érhetők el, például egy mobilalkalmazásban.
+
 4.Ha a WiFi kapcsolat megszakad, automatikusan újracsatlakozik.
 
 <ins>Összeállítás menete:</ins>
